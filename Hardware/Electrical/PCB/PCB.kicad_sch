@@ -1,0 +1,916 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8e3abcc5-43e9-4b34-9640-a0acd90473e7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 85.09 69.85)
+		(end 100.33 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01f4ade9-94d4-4b84-86ba-65115bf5c182)
+	)
+	(rectangle
+		(start 124.46 118.11)
+		(end 151.13 125.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 051023e2-4eda-4b15-82a6-6fe91ae77e72)
+	)
+	(rectangle
+		(start 85.09 77.724)
+		(end 100.33 84.074)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26ae6ffd-6d84-47ca-bc0d-209be4e6ab96)
+	)
+	(rectangle
+		(start 49.53 71.12)
+		(end 58.42 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ea57190-f914-4525-a37b-c47ac38084f9)
+	)
+	(rectangle
+		(start 157.48 84.836)
+		(end 170.18 92.456)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aea11ca-48c9-42dd-a3df-aaef503a0341)
+	)
+	(circle
+		(center 119.1192 148.7882)
+		(radius 4.0161)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6f6a3cf-8a51-425b-92a9-8e837c879535)
+	)
+	(rectangle
+		(start 124.46 83.82)
+		(end 151.13 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc669b52-d0df-4356-b107-d00a8ef55c3e)
+	)
+	(rectangle
+		(start 184.15 71.12)
+		(end 198.12 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9145e65-51be-4fdc-9839-15c79d586eb9)
+	)
+	(text "Touch Pad"
+		(exclude_from_sim no)
+		(at 118.8652 155.6462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0500feb9-5977-49ef-84e6-e179551dccb8")
+	)
+	(text "ESP32"
+		(exclude_from_sim no)
+		(at 137.16 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14b6f8c9-e9b2-41f2-8264-c4f238e52627")
+	)
+	(text "VBUS"
+		(exclude_from_sim no)
+		(at 68.072 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2648591b-4f95-4777-a0fa-c059f92070c1")
+	)
+	(text "LVL Shifter\n3.3V -> 5V"
+		(exclude_from_sim no)
+		(at 163.83 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40a10d16-a2fd-4162-8774-5427a7534087")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 127.254 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4215e7d0-30e9-42ad-8bc4-362207ee6c4f")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 114.554 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6172ec6f-a9cd-4ca6-9ca8-e7f6007aaaf4")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 137.922 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f32ee8f-650c-49ff-9941-1d78762cdb57")
+	)
+	(text "CAP1296-1-AIA-TR"
+		(exclude_from_sim no)
+		(at 133.35 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b3d1f67-c512-4526-a651-84a20a01f569")
+	)
+	(text "5V DCDC"
+		(exclude_from_sim no)
+		(at 92.202 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92f13daa-c9b5-42f2-8d47-cc20dfd6d346")
+	)
+	(text "USBC PD"
+		(exclude_from_sim no)
+		(at 54.356 79.502 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5df73da-1ee8-4837-aee9-648e3231b3f5")
+	)
+	(text "PD_PWR"
+		(exclude_from_sim no)
+		(at 67.818 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dae2b352-250e-4cc8-b2df-f0b9778fc197")
+	)
+	(text "3.3V DCDC"
+		(exclude_from_sim no)
+		(at 92.71 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de8b06a9-dccc-452d-9600-b15e84bae4ec")
+	)
+	(polyline
+		(pts
+			(xy 144.78 125.73) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a795b5-d93b-4a77-8617-3bb512dc60da")
+	)
+	(polyline
+		(pts
+			(xy 123.19 148.59) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2128ae22-1085-40a6-adbf-30f8a1410000")
+	)
+	(polyline
+		(pts
+			(xy 100.33 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a45d2d-bbbb-4d25-8366-3b0f8c25cb00")
+	)
+	(polyline
+		(pts
+			(xy 107.95 88.9) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2389c4-ce02-494e-9256-eef647d4c879")
+	)
+	(polyline
+		(pts
+			(xy 151.13 88.646) (xy 157.48 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0e7c2b-538c-4a6d-82b9-00bd9de8c874")
+	)
+	(polyline
+		(pts
+			(xy 76.2 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3f3591-de2d-4820-9368-4d0a612ef434")
+	)
+	(polyline
+		(pts
+			(xy 170.18 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811bec0b-ba46-4847-93b8-398dace3cfca")
+	)
+	(polyline
+		(pts
+			(xy 124.46 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867405cd-6555-4a4c-932d-3e5401a3901d")
+	)
+	(polyline
+		(pts
+			(xy 100.33 73.66) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "891dd1b1-5c3b-47af-be10-485f208aa131")
+	)
+	(polyline
+		(pts
+			(xy 58.42 80.01) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf34d0b-7e27-4c50-bc3f-a0b3526c0946")
+	)
+	(polyline
+		(pts
+			(xy 58.42 73.66) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a2952b-8faa-4448-8483-cbb641da0f0b")
+	)
+	(polyline
+		(pts
+			(xy 177.8 88.9) (xy 177.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f338a19b-f85d-469f-87e7-7f35c51d7596")
+	)
+	(polyline
+		(pts
+			(xy 177.8 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf72547-7f57-41ee-af4a-b72aaa6960ba")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a67d85cd-7cdc-433b-8ea4-7c749585de0b")
+		(property "Reference" "D2"
+			(at 190.8174 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 193.3574 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eb39fe4-a914-461d-801a-159011eaca01")
+		)
+		(pin "1"
+			(uuid "17dd6030-2eca-4987-8372-440d2928f653")
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3355de2-dcef-4d0d-8df2-4aa3b985ee77")
+		(property "Reference" "D1"
+			(at 190.8174 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 193.3574 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58affcc6-b010-47b2-8977-61ad3735d7ae")
+		)
+		(pin "1"
+			(uuid "5698ec5f-c8ec-4440-aa1c-b7fc3ca8551c")
+		)
+		(instances
+			(project ""
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 67.31)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "255c8fde-d8cc-4a06-ba23-cdcfa512cf28")
+		(property "Sheetname" "leds"
+			(at 180.34 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 180.34 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 67.31)
+		(size 29.21 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8834c59b-5df5-481c-a707-acd5ce56db59")
+		(property "Sheetname" "usbc"
+			(at 44.45 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbc.kicad_sch"
+			(at 44.45 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 67.31)
+		(size 64.77 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a18cfd9b-c76c-4fc5-9fc9-0b2eb6ee5ab7")
+		(property "Sheetname" "Microcontroller"
+			(at 110.49 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 110.49 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 67.31)
+		(size 26.67 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "deae9dd2-47ba-4f1f-854a-8e277b927eec")
+		(property "Sheetname" "power_systems"
+			(at 78.74 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_systems.kicad_sch"
+			(at 78.74 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 97.79)
+		(size 29.21 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7a84333-27af-4900-819f-94afac8fd076")
+		(property "Sheetname" "battery"
+			(at 44.45 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 44.45 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/8e3abcc5-43e9-4b34-9640-a0acd90473e7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
