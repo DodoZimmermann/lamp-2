@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BQ25303JRTER")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/BQ25303JRTER/BQ25303JRTER.kicad_sym")(options "")(descr ""))
+)

@@ -2486,7 +2486,7 @@
 		)
 		(uuid "6d38aeaa-220a-4eed-9075-84bdb6017ced")
 	)
-	(text "Max Voltage 20V"
+	(text "Max Voltage 15V"
 		(exclude_from_sim no)
 		(at 104.902 105.664 0)
 		(effects
@@ -3674,7 +3674,7 @@
 			)
 		)
 	)
-	(global_label "LDO_3V3"
+	(global_label "LDO_1V5"
 		(shape input)
 		(at 125.73 105.41 180)
 		(fields_autoplaced yes)
@@ -3684,7 +3684,7 @@
 			)
 			(justify right)
 		)
-		(uuid "96b33e50-d93e-444f-bc53-c51d07b606b6")
+		(uuid "7a439591-e23e-4df6-ba7b-84c9e0fea9ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.641 105.41 0)
 			(effects
