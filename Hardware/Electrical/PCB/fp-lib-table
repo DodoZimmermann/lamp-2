@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM73100")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/LM73100")(options "")(descr ""))
+)

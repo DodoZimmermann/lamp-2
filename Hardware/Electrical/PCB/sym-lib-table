@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "BQ25303JRTER")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/BQ25303JRTER/BQ25303JRTER.kicad_sym")(options "")(descr ""))
+  (lib (name "LM73100RPWR")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/LM73100/LM73100RPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS51385")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/TPS51385/TPS51385.kicad_sym")(options "")(descr ""))
 )
