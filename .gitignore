@@ -1,2 +1,8 @@
 #documentation
 Schule/
+
+# Emacs auto-save and lock files
+\#*#
+
+# KiCad lock files
+*.lck

@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "LM73100")(type "KiCad")(uri "${KIPRJMOD}/Extra-devices/LM73100")(options "")(descr ""))
+	(version 7)
+	(lib (name "LM73100") (type "KiCad") (uri "${KIPRJMOD}/Extra-devices/LM73100") (options "") (descr ""))
+	(lib (name "TPS51385") (type "KiCad") (uri "${KIPRJMOD}/Extra-devices/TPS51385") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/Extra-devices/BQ25303JRTER/footprints.pretty") (options "") (descr ""))
 )
