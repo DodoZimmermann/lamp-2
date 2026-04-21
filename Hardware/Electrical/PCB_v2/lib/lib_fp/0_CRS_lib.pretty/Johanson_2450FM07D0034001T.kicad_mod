@@ -1,0 +1,213 @@
+(footprint "Johanson_2450FM07D0034001T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.4GHz ~ 2.5GHz Frequency RF Filter (Radio Frequency) 100MHz Bandwidth 0.75dB 0402 (1005 Metric), 4 PC Pad")
+	(property "Reference" "REF**"
+		(at 2.09 8.49 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "50489fb1-b772-45b3-aeb9-90e60ec852ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Johanson_2450FM07D0034001T"
+		(at 2.09 9.99 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7b4abead-c8e1-4dcd-b59e-72ea34d1a6b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eecd0758-5d04-4b2f-b3dc-7419da8d0beb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e93cf65f-df6f-43ba-8dd7-c16992bacb56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.635 0.005) (xy -0.965 0.245) (xy -0.965 -0.235) (xy -0.635 0.005)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2c728a8c-e4eb-4e79-b846-2ca1a026a52f")
+	)
+	(fp_line
+		(start -0.525 -0.85)
+		(end -0.525 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d54eb78-95e2-452b-a267-19d7a47cdb25")
+	)
+	(fp_line
+		(start -0.525 0.85)
+		(end 1.725 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77c2d251-55d8-4262-b6a9-3b813cd8171b")
+	)
+	(fp_line
+		(start 1.725 -0.85)
+		(end -0.525 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dc81c5d4-4222-47c5-9cb0-5c32d7636ffb")
+	)
+	(fp_line
+		(start 1.725 0.85)
+		(end 1.725 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "defd48cf-334a-4ec3-9f5d-b978671bab09")
+	)
+	(fp_line
+		(start 0.1 -0.25)
+		(end 0.1 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3a510c5-c3f4-4b2b-9d63-cfb2a31e9ed8")
+	)
+	(fp_line
+		(start 0.1 0.25)
+		(end 1.1 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d88de1d-9647-4530-b58d-33b82569c9ce")
+	)
+	(fp_line
+		(start 1.1 -0.25)
+		(end 0.1 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a156de7-1f50-4cec-bc8d-647df9b62918")
+	)
+	(fp_line
+		(start 1.1 0.25)
+		(end 1.1 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78ff9648-a8d7-4861-80d6-ca841ca83218")
+	)
+	(fp_circle
+		(center -0.8 0)
+		(end -0.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9666e623-f819-4ba8-82b4-e7e1b0b1ab65")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.09 11.49 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ee65b21-ebc4-46e0-8a19-985f17d20a73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8f1edadb-59d6-4787-b4da-64e163ae1f66")
+	)
+	(pad "2" smd rect
+		(at 0.6 0.35)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "90269ca5-a0c4-4c94-a82d-4182a3ce13fb")
+	)
+	(pad "3" smd rect
+		(at 1.2 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0ecb4c97-8805-4fe1-812d-16c6c00ea405")
+	)
+	(pad "4" smd rect
+		(at 0.6 -0.35)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c5f562bb-fb4b-41e8-9ccf-8a5f2268b4d6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/Johanson_2450FM07D0034001T.stp"
+		(offset
+			(xyz 0.6 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

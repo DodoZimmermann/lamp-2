@@ -1,0 +1,140 @@
+(footprint "LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD,1x1mm RGB WS2812B")
+	(property "Reference" "REF**"
+		(at 1.86 0.55 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "107027e3-250f-42b6-a20f-4dc23c74a004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B"
+		(at -0.04 3.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6a0088c-2c4e-4575-9e22-0f7ae4212e23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5cd932d-45b3-47c2-ad05-7bac85742c38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdde3d0c-2af4-4457-b01b-0860fa1cf802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.005 -0.405) (xy -0.235 -0.735) (xy 0.245 -0.735) (xy 0.005 -0.405)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "635b32f3-58c7-4441-964d-323c2d6c5695")
+	)
+	(fp_rect
+		(start -0.3 -0.29)
+		(end 1.14 1.14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "17827482-a9c6-4fd1-a60b-199f20b40d4e")
+	)
+	(fp_circle
+		(center -0.08 -0.08)
+		(end -0.05 -0.08)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "123f88b9-dd39-41fa-bea6-74bcfe3cdfed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.19 4.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eece5a55-58a3-4a7e-900e-fb6385c44bec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60490a26-e038-46fe-a059-1ebc1f212f03")
+	)
+	(pad "2" smd rect
+		(at 0.84 0)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "445274c6-6453-476d-a203-d4da2c69222a")
+	)
+	(pad "3" smd rect
+		(at 0 0.84)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e1e1e3a-69b2-4304-8266-e4fe0ed65fb8")
+	)
+	(pad "4" smd rect
+		(at 0.84 0.84)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a795f4d-d8c4-4ebf-9b07-93c024fdfc33")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B.step"
+		(offset
+			(xyz 0.43 -0.43 -0.04)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

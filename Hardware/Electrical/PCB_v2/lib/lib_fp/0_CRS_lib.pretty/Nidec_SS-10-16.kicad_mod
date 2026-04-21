@@ -1,0 +1,168 @@
+(footprint "Nidec_SS-10-16"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Raised Dip Switch SP6T 6 Position Through Hole Rotary for Tool Actuator 100mA 5VDC")
+	(property "Reference" "REF**"
+		(at -3.49 -2.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d62b7b3-8725-4fdc-a5b2-847e58b9ae03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Nidec_SS-10-16"
+		(at -3.24 9.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "59d76c74-b3a8-40b8-9178-951bffcc0ebe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee7fb38d-7464-4d4d-8999-a4866d19c47d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efe092e2-53e9-4df7-bbc1-4a22b7a04d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.81 -1.24)
+		(end 1.22 8.87)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "18ab973d-abc1-44f4-9720-aeedaddd6c24")
+	)
+	(fp_rect
+		(start -8.81 -1.24)
+		(end 1.22 8.87)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "308be8a5-590d-4fb6-ad0d-5b412057b0e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.12 11.37 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8b87092-747b-4aee-aafe-2cd08e7b3210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b48a2ff-863f-4f5b-881a-228146dc0e61")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.08)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94a044a2-3895-4070-8532-864b0cec8b64")
+	)
+	(pad "3" thru_hole circle
+		(at 0 7.62)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7602c3b6-adfc-4768-8722-38a6fe811c30")
+	)
+	(pad "4" thru_hole circle
+		(at -7.62 0)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4ee2f2f-0a70-47ba-a35e-d9db9360a119")
+	)
+	(pad "5" thru_hole circle
+		(at -7.62 2.54)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07c13b7b-ebf4-43bd-afb9-5afe17487dce")
+	)
+	(pad "6" thru_hole circle
+		(at -7.62 7.62)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41f1bd32-d783-4367-80ee-b7151cd76c00")
+	)
+	(pad "C" thru_hole circle
+		(at -7.62 5.08)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdcec7de-bdc2-4a9b-94bb-3b3acf86749d")
+	)
+	(pad "C" thru_hole circle
+		(at 0 2.54)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b1abd4f-599f-405d-9502-fb53914bef39")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/Nidec_SS-10-16NP-LE.stp"
+		(offset
+			(xyz -3.8 -3.8 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

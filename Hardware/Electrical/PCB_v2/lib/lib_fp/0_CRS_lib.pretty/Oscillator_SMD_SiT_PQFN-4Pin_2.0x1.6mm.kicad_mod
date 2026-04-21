@@ -1,0 +1,160 @@
+(footprint "Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SiTime SiT8008B, MEMS programmable oscillator, 2.0x1.6mm package, SMD, generated with kicad-footprint-generator make_crystal.py, https://www.sitime.com/datasheet/SiT8008 page 10")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "d18ad6f9-19b1-4fb7-90f1-30a8f74b9fbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "5e82d61a-75ff-46b9-9409-787df9b516eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8885069f-cbe2-4b36-bd7c-e7b3be4307f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c35ef340-e44e-45e0-be91-139fd8c4b70a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.46 -1.26)
+		(end -1.46 1.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "675a5072-53ca-4624-af73-36ad6f4921fd")
+	)
+	(fp_line
+		(start -1.46 1.26)
+		(end 1.46 1.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d906378-a7c9-4b01-911b-0ef3cce703c0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.724 0.69) (xy -2.06 0.93) (xy -2.06 0.45) (xy -1.724 0.69)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "39013f20-ec64-43b3-9224-1f33cc4ffa56")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79e5bc53-a879-4d50-aeb1-33727052cfa0")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -0.8) (xy 1 0.8) (xy -0.6 0.8) (xy -1 0.4) (xy -1 -0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2d933552-b9ba-4f2b-9c87-f12d7c0e105d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1e7895c0-0042-47df-994a-23029b687248")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0.6)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "051deb46-3031-4f65-bd95-d1e28b8aa36a")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0.6)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "75d32fdb-e14b-4ab9-9d18-da41dfd07874")
+	)
+	(pad "3" smd roundrect
+		(at 0.75 -0.6)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1f57c16f-cb32-412e-b1ce-1f802edb19de")
+	)
+	(pad "4" smd roundrect
+		(at -0.75 -0.6)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2bfe8a7e-5eef-45bc-b63f-9571709fee76")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/ECS_TXO-16CSMV4-520-AY-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

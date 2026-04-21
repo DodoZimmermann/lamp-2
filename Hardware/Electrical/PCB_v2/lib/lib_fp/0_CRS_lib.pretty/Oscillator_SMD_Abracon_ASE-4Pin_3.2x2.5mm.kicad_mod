@@ -1,0 +1,172 @@
+(footprint "Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Abracon ASE, Miniature Crystal Clock Oscillator, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.abracon.com/Oscillators/ASEseries.pdf")
+	(tags "SMD SMT crystal oscillator")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "625ff8f2-f8a9-4e87-99d8-068765926fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "e42ff49a-2c1d-4d25-9e33-d91f54b9ef33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b51d8936-28f7-4983-9f11-eb30bcf13d9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36412afe-120c-4d88-82ff-39c3301799ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.96 -1.635)
+		(end -1.96 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d73404d-7dcb-41f2-8c56-dbc4120e1196")
+	)
+	(fp_line
+		(start -1.96 1.635)
+		(end 1.96 1.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04ee34e8-3fe7-4273-9618-6dbd74849b72")
+	)
+	(fp_poly
+		(pts
+			(xy -2.35 0.9) (xy -2.68 0.66) (xy -2.68 1.14) (xy -2.35 0.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b53cbef1-7b99-49f4-9416-e02cafb08e0d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "a291a3d8-db3e-4bba-bb59-9fb76a278b71")
+	)
+	(fp_rect
+		(start -2.1 -1.75)
+		(end 2.1 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ccf81fc6-05ab-4a35-860b-06fed9f7898e")
+	)
+	(fp_poly
+		(pts
+			(xy 1.6 -1.25) (xy 1.6 1.25) (xy -0.975 1.25) (xy -1.6 0.625) (xy -1.6 -1.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "396db15f-0424-42f5-90ee-54e00ae2728b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7e6a2933-21a2-402c-ac05-0b227b41ce76")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 0.825)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.227273)
+		(uuid "fa635de2-2d57-4c58-a3d6-1a7fe0d1e795")
+	)
+	(pad "2" smd roundrect
+		(at 1.05 0.825)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.227273)
+		(uuid "48fa2400-aa1a-4292-bd57-dd1ae53a26c9")
+	)
+	(pad "3" smd roundrect
+		(at 1.05 -0.825)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.227273)
+		(uuid "ca7530c7-680d-4916-bed8-af6dc23ca77d")
+	)
+	(pad "4" smd roundrect
+		(at -1.05 -0.825)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.227273)
+		(uuid "9e76968f-cead-4a40-8e22-3de155d20e84")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/Abracon_ASE.STEP"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

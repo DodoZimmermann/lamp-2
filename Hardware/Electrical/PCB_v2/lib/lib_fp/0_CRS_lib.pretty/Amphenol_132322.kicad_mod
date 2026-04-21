@@ -1,0 +1,288 @@
+(footprint "Amphenol_132322"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMA Connector Receptacle, Female Socket 50 Ohms Board Edge, End Launch Solder")
+	(property "Reference" "REF**"
+		(at 0.03 -3.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c4141a0-85ac-4e39-a906-d92f15e93a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Amphenol_132322"
+		(at -0.11 12.88 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5111592e-1558-426e-af7d-f9ed123c837f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a057867-6aa6-414e-bcac-238de793f983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0d98f0-2d18-4bf1-8334-acc9b026f684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.77 -2.375)
+		(end 3.77 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "0a9e05fb-ce27-4c78-9a23-bc3588aff2fc")
+	)
+	(fp_line
+		(start -3.77 11.895)
+		(end -3.77 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "3027af19-c122-4613-8689-3afb32e47b9b")
+	)
+	(fp_line
+		(start 3.77 -2.375)
+		(end 3.77 11.895)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "23cd70e3-2f16-4a02-857e-a6030df52475")
+	)
+	(fp_line
+		(start 3.77 11.895)
+		(end -3.77 11.895)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "447bec4c-7fc9-4790-a0c1-2e450982c237")
+	)
+	(fp_line
+		(start -3.77 -2.375)
+		(end 3.77 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "412b0eb3-26e6-4276-8aef-b3f9694a9981")
+	)
+	(fp_line
+		(start -3.77 11.895)
+		(end -3.77 -2.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d1ca024-61b9-4ee7-8074-438e82e5d61b")
+	)
+	(fp_line
+		(start 3.77 -2.375)
+		(end 3.77 11.895)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14eb05cf-7ced-4873-b179-8672404ed560")
+	)
+	(fp_line
+		(start 3.77 11.895)
+		(end -3.77 11.895)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b10e43ef-ba5d-4809-af59-862052c51715")
+	)
+	(fp_line
+		(start -3.175 2.125)
+		(end 3.175 2.125)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1b82538e-5515-465e-81cd-1bfda4ce2694")
+	)
+	(fp_line
+		(start -3.175 11.645)
+		(end -3.175 2.125)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "2231c109-2b64-4494-a62a-9052dba7f4f6")
+	)
+	(fp_line
+		(start 3.175 2.125)
+		(end 3.175 11.645)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "c3a25a48-e7fe-4576-aa84-4bbb44780dc8")
+	)
+	(fp_line
+		(start 3.175 11.645)
+		(end -3.175 11.645)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b989805b-5f25-46a4-8d86-798b400d8cb1")
+	)
+	(fp_line
+		(start -3.175 2.125)
+		(end 3.175 2.125)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25c98bfd-f3dd-4fcd-82cf-caba6777e739")
+	)
+	(fp_line
+		(start -3.175 11.645)
+		(end -3.175 2.125)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae2a33f9-1265-418f-9756-1864e0492b80")
+	)
+	(fp_line
+		(start 3.175 2.125)
+		(end 3.175 11.645)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcf2def7-0482-4e9a-9e50-0c78a3fb96f6")
+	)
+	(fp_line
+		(start 3.175 11.645)
+		(end -3.175 11.645)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f06dea9-9234-4dc6-8898-9053f75c52f9")
+	)
+	(fp_text user "PCB EDGE"
+		(at 0.03 2.91 0)
+		(layer "F.Fab")
+		(uuid "43279da0-cde6-48e8-a638-07687ea5f622")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.19 14.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99ef29cb-e846-4beb-95a8-d14df939f033")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 4.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f593bbab-c693-49ed-b113-d3112d645a8a")
+	)
+	(pad "2" smd rect
+		(at -2.77 0.15)
+		(size 1.5 3.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "481f2ff6-fe75-41ee-931a-b43adae0c966")
+	)
+	(pad "2" smd rect
+		(at 2.77 0.15)
+		(size 1.5 3.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "49605803-ea58-41fb-ba67-5a520657e9b8")
+	)
+	(pad "G3" smd rect
+		(at -2.77 0.15)
+		(size 1.5 3.95)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "482e9dec-124f-4a85-8866-4acac69ac6b7")
+	)
+	(pad "G4" smd rect
+		(at 2.77 0.15)
+		(size 1.5 3.95)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1d8fee0f-1a5b-4c7f-8370-3e30f4567999")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/Amphenol_132322.stp"
+		(offset
+			(xyz 0 -2 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

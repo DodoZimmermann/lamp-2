@@ -1,0 +1,200 @@
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 674:Plugin executed on: 'win32'
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 675:Plugin executed with python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 676:KiCad build version: 10.0.0
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 677:Plugin version: 5.0.0
+
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 678:Frame repr: <wx._core.Frame object at 0x0000021C1BCE4940>
+04-17 17:44:07 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+04-17 17:44:08 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 717:Reference footprint='D4'
+04-17 17:44:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 858:Reference designator is: D
+04-17 17:44:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 859:Reference number is: 4
+04-17 17:44:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 891:Sorted and filtered list:
+['D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'D32', 'D33', 'D34', 'D35', 'D36', 'D37', 'D38', 'D39', 'D40', 'D41', 'D42', 'D43', 'D44', 'D45', 'D46', 'D47', 'D48', 'D49', 'D50', 'D51', 'D52', 'D53', 'D54', 'D55', 'D56', 'D57', 'D58', 'D59', 'D60', 'D61', 'D62', 'D63']
+04-17 17:44:11 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 376:wx.Colour(32, 32, 32, 255)
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 507:'77.215'
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 559:Preparing config for reference circular
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 573:Saving config file
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 575:Saved the config file
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 929:Footprints to place:
+['D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'D12', 'D13', 'D14', 'D15', 'D16', 'D17', 'D18', 'D19', 'D20', 'D21', 'D22', 'D23', 'D24', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30', 'D31', 'D32', 'D33', 'D34', 'D35', 'D36', 'D37', 'D38', 'D39', 'D40', 'D41', 'D42', 'D43', 'D44', 'D45', 'D46', 'D47', 'D48', 'D49', 'D50', 'D51', 'D52', 'D53', 'D54', 'D55', 'D56', 'D57', 'D58', 'D59', 'D60', 'D61', 'D62', 'D63']
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 359:Starting placing with circular layout
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 369:reference footprint position at: VECTOR2I(152500000, 46000000)
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 374:rotation center at: (152500000, 123215000.0)
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.place_footprints 506:Text of: D4 has property "Keep upright" rotation might not look as intended
+04-17 17:44:35 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 944:Placing complete

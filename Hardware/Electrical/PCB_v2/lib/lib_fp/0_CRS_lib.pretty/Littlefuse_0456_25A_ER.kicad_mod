@@ -1,0 +1,198 @@
+(footprint "Littlefuse_0456_25A_ER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "20-30A 125 V 72 V Fuse Board Mount (Cartridge Style Excluded) Surface Mount 2-SMD, Square End Block")
+	(property "Reference" "REF**"
+		(at 4.89 -2.49 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae950508-42f0-46f2-b4cf-5ca72cf7dc44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Littlefuse_0456_25A_ER"
+		(at 4.62 4.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb7f79e0-5370-467e-b98f-2cf60f9a192b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7293499b-8c06-408f-b0fe-adcbd545a090")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66802d61-2607-4aa0-afad-9fae0c6ae5b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.4 -1.525)
+		(end 7.33 -1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14fe5396-88c0-4914-902f-0fb1d5dffbbd")
+	)
+	(fp_line
+		(start 1.4 1.525)
+		(end 7.33 1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0986a71b-59d5-494a-9801-b55e475c4d83")
+	)
+	(fp_line
+		(start -1.33 -1.83)
+		(end -1.33 1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffb9e202-1d2b-4d40-b07e-01047fa6a15d")
+	)
+	(fp_line
+		(start -1.33 1.83)
+		(end 10.06 1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd2b6b65-0b3f-444e-a0fa-1ebb8dbfa175")
+	)
+	(fp_line
+		(start 10.06 -1.83)
+		(end -1.33 -1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa611073-2966-4ba0-9486-b3bc83c1c3a3")
+	)
+	(fp_line
+		(start 10.06 1.83)
+		(end 10.06 -1.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fcd361b-e7e7-4e9f-85fb-4f4028df7d3b")
+	)
+	(fp_line
+		(start -0.675 -1.525)
+		(end 9.405 -1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "920116f2-f1e3-461d-bfe9-08fb3d195dea")
+	)
+	(fp_line
+		(start -0.675 1.525)
+		(end -0.675 -1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a3cb6d2-3823-40e9-bd60-54d2c7a7de10")
+	)
+	(fp_line
+		(start 9.405 -1.525)
+		(end 9.405 1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d564fd4e-7188-4a59-87a1-78ca8864feb0")
+	)
+	(fp_line
+		(start 9.405 1.525)
+		(end -0.675 1.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "096a6be8-872c-4efb-ba81-f789616cd339")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.6 2.77 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87811015-0943-4f1a-9dc3-6c1f5b9f0118")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 2.16 3.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1f790b30-efed-4927-a4d3-0ee506772c88")
+	)
+	(pad "2" smd roundrect
+		(at 8.73 0)
+		(size 2.16 3.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "7fad3a35-1903-44c7-90ce-8228f797facb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/Littlefuse_0456025.ER.step"
+		(offset
+			(xyz 4.36 -1.56 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

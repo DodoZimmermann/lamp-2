@@ -1,0 +1,250 @@
+(footprint "ST_LD56100DPU33R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "8-XFDFN Exposed Pad Linear Voltage Regulator IC Positive Fixed 1 Output 1A 8-DFN (1.6x1.2)")
+	(property "Reference" "REF**"
+		(at 0.58 -1.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8024e313-12b1-44b0-9ed6-1f96745f1a24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST_LD56100DPU33R"
+		(at 0.34 2.53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "95e4acde-ebb6-49f0-a238-20c3ddafb539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "975ccd3b-039d-4848-93e8-869ac2826d9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77c78b44-843d-4f0f-b108-7dd9b057ea7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.44 -0.01) (xy -0.77 0.23) (xy -0.77 -0.25)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "95306baf-7b42-4bcc-8219-74d134e26405")
+	)
+	(fp_line
+		(start -0.27 -0.29)
+		(end 1.09 -0.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2400626d-d51e-4193-97a4-07090fbc84b6")
+	)
+	(fp_line
+		(start -0.27 1.47915)
+		(end -0.27 -0.29)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df7ecdd9-243d-476d-bd65-10889665d462")
+	)
+	(fp_line
+		(start 1.09 -0.29)
+		(end 1.09 1.48085)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d8e4081-9925-4b48-9b65-91856b42b1b1")
+	)
+	(fp_line
+		(start 1.09 1.48085)
+		(end -0.27 1.47915)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c615cd7-e64f-41ee-baf4-4f8515e892eb")
+	)
+	(fp_line
+		(start -0.1778 -0.200101)
+		(end -0.1778 1.400099)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26b5daf5-afc2-4561-9f1d-9ad866522b6c")
+	)
+	(fp_line
+		(start -0.1778 1.400099)
+		(end 1.016 1.400099)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab9ef23c-aec9-4698-9a8e-9edd04bf498d")
+	)
+	(fp_line
+		(start 1.016 -0.200101)
+		(end -0.1778 -0.200101)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05e919cd-b422-452e-86c1-ca8c4525cae6")
+	)
+	(fp_line
+		(start 1.016 1.400099)
+		(end 1.016 -0.200101)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fedffc6-1380-4ecf-b5a4-a9c8da9bf0de")
+	)
+	(fp_arc
+		(start 0.7239 -0.200101)
+		(mid 0.4191 0.104699)
+		(end 0.1143 -0.200101)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e022709b-5572-4f5b-8149-df22ff309146")
+	)
+	(fp_circle
+		(center 0.127 -0.000001)
+		(end 0.2032 -0.000001)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aba9151f-5934-461f-8850-39e651dd953d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.66 4.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6720c19f-c53a-4907-97e5-67d69893d8f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49a3d87d-dd8f-4317-b87f-7c98734f93dc")
+	)
+	(pad "2" smd rect
+		(at 0 0.399999)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24f27389-aa9d-469c-b088-31d3c4733891")
+	)
+	(pad "3" smd rect
+		(at 0 0.799999)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e07b5b6b-1fc7-4970-a32d-a29707c20837")
+	)
+	(pad "4" smd rect
+		(at 0 1.199998)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cea6cb34-cb72-4acd-9493-d10d994a6061")
+	)
+	(pad "5" smd rect
+		(at 0.8382 1.199998)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efbf960c-8b93-4824-91a6-c5fdbfe46f76")
+	)
+	(pad "6" smd rect
+		(at 0.8382 0.799999)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5626d544-acf0-46de-a407-cbdaf304471a")
+	)
+	(pad "7" smd rect
+		(at 0.8382 0.399999)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3369941b-f1d3-45eb-a935-f036580e43ae")
+	)
+	(pad "8" smd rect
+		(at 0.8382 0)
+		(size 0.254 0.2286)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f312056f-8c81-47ee-af32-e1d4b3e71ef3")
+	)
+	(pad "9" smd rect
+		(at 0.4191 0.599999)
+		(size 0.381 1.397)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed5cca26-8959-4fad-9d72-78e5c53a12f5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/ST_LD56100DPU33R.step"
+		(offset
+			(xyz 0.42 -0.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,206 @@
+(footprint "PANASONIC_EVP-AA602W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile Switch SPST-NO Top Actuated Surface Mount")
+	(property "Reference" "REF**"
+		(at 1.825 -2.025 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88c8d854-47f2-49a6-8877-c7ddc54e1fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PANASONIC_EVP-AA602W"
+		(at 1.675 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8c7452d-157c-471d-b235-03c862976c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a5fb86e-cbe1-4780-a7d2-0e768cbd1b5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba4d71aa-8e2b-4e91-8be3-5700bce34181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.620581 2.2998)
+		(end 2.729419 2.2998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f467cdda-4492-4076-b79e-00c4fa46df7f")
+	)
+	(fp_line
+		(start 2.729419 -0.8498)
+		(end 0.620581 -0.8498)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07c67bb1-7364-4f1a-9781-fce0c5a16ae2")
+	)
+	(fp_line
+		(start -0.8255 -0.9768)
+		(end -0.8255 2.4268)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7a4a62f-f27d-41c9-a452-4c8aa22b74ce")
+	)
+	(fp_line
+		(start -0.8255 2.4268)
+		(end 4.1755 2.4268)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66642498-80c5-4ebf-b7c0-65d370c2c0ec")
+	)
+	(fp_line
+		(start 4.1755 -0.9768)
+		(end -0.8255 -0.9768)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87178623-22ac-4fcc-a348-294b1dd1eee7")
+	)
+	(fp_line
+		(start 4.1755 2.4268)
+		(end 4.1755 -0.9768)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4908d441-bff9-470a-8859-acdf2307028b")
+	)
+	(fp_line
+		(start -0.4713 -0.7228)
+		(end -0.4713 2.1728)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "798398e6-6695-4945-9b78-1dcd42134535")
+	)
+	(fp_line
+		(start -0.4713 2.1728)
+		(end 3.8213 2.1728)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e45f74c9-5579-40b2-b943-b9021984e124")
+	)
+	(fp_line
+		(start 3.8213 -0.7228)
+		(end -0.4713 -0.7228)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9a68a0a-fea3-4918-a7c1-a1eea7db9377")
+	)
+	(fp_line
+		(start 3.8213 2.1728)
+		(end 3.8213 -0.7228)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee443d9c-da18-456d-8b2e-f58ca63c73aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.15 5.425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ab57f6b-1101-4815-a070-adb2f38ba5f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.143 1.0414)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef9404b6-11a6-4b1a-b688-c2d55b0f0281")
+	)
+	(pad "1" smd rect
+		(at 3.35 0)
+		(size 1.143 1.0414)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1b9138f-3b0d-4519-a5f7-c7eff247fcea")
+	)
+	(pad "2" smd rect
+		(at 0 1.45)
+		(size 1.143 1.0414)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07d0e422-69db-4abf-93da-98d64fbbf91b")
+	)
+	(pad "2" smd rect
+		(at 3.35 1.45)
+		(size 1.143 1.0414)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22016c4d-8259-44cc-ab46-c2cdcefdb261")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/PANASONIC_EVP-AA602W.stp"
+		(offset
+			(xyz 3.15 -1.75 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
