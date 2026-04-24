@@ -4886,84 +4886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 167.64 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ecf7a81-8562-477b-b143-935d62ed8cba")
-		(property "Reference" "#PWR049"
-			(at 167.64 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 167.64 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 167.64 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f535483-afe6-43da-991e-af96686a0b0f")
-		)
-		(instances
-			(project "PCB_v2"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f976ab45-ced4-4e68-9162-43957e299bc8"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 196.85 88.9 0)
 		(unit 1)
@@ -5912,6 +5834,84 @@
 			(project "PCB_v2"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f976ab45-ced4-4e68-9162-43957e299bc8"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 167.64 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d9d63a-2817-4e64-8f13-8c7088cf101f")
+		(property "Reference" "#PWR049"
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 167.64 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 167.64 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac6cdde3-a8a2-444a-80c1-1036fec27fb5")
+		)
+		(instances
+			(project "PCB_v2"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/f976ab45-ced4-4e68-9162-43957e299bc8"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

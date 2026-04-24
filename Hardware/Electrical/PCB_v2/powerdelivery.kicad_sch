@@ -20,8 +20,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J2"
+				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 3.302 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -40,7 +40,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -51,7 +51,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893971980423168"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,6 +63,171 @@
 				)
 			)
 			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "USB4105-GF-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Second supplier" "Digikey"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Second supplier Part Number" "2073-USB4105-GF-ACT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C393939"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Position Offset" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Origin" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field4" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field7" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field8" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -713,7 +878,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9285,6 +9450,17 @@
 				)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 73.66 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B4"
 			(uuid "ed6f2154-9104-4fe8-91b5-6c9242f53aab")
 		)
@@ -9330,7 +9506,7 @@
 		(pin "B9"
 			(uuid "0f383394-cced-4abb-9179-4e3c88b05715")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "df434aeb-890e-4068-be8f-080828f35681")
 		)
 		(pin "A5"
