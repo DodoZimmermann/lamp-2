@@ -3466,7 +3466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 217.424 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +3951,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 Ohm"
 			(at 160.02 145.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 156.464 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4700,7 +4700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47nF"
 			(at 209.55 115.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4792,7 +4792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 125.984 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,17 +5631,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 184.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 184.15 123.19 0)
 			(hide yes)
@@ -5698,6 +5687,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 184.15 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C2842775"
 			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5790,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 137.414 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)

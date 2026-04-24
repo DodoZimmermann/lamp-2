@@ -557,8 +557,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D3"
+				(at -0.3175 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -568,7 +568,7 @@
 				)
 			)
 			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+				(at -0.3175 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -577,7 +577,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -600,6 +600,83 @@
 				)
 			)
 			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Origin" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "FT Position Offset" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Second supplier" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Second supplier Part Number" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C2135"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -672,9 +749,10 @@
 			)
 			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(hide yes)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -700,6 +778,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3882,6 +3978,12 @@
 		(uuid "535a7f0b-50fb-476e-9e48-8b0577f4dfa5")
 	)
 	(junction
+		(at 218.44 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a30b42-9a9e-4053-9502-6756d3092a67")
+	)
+	(junction
 		(at 156.21 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5255,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "71c94aaf-3a5d-473f-a367-08520afc09ad")
+	)
+	(wire
+		(pts
+			(xy 218.44 177.8) (xy 218.44 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7484c70a-873a-4e95-a406-804932042b7c")
 	)
 	(wire
 		(pts
@@ -6810,7 +6922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 248.92 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,6 +7021,72 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Second supplier" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Second supplier Part Number" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Origin" ""
+			(at 245.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1af12d6-b847-4e61-8b07-e88ac71d0153")
 		)
@@ -6956,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 204.47 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -6989,11 +7167,91 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2135"
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Second supplier" ""
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Second supplier Part Number" ""
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Origin" ""
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C2135"
+			(at 204.47 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4104ae3-b074-4e4b-b6b0-a329fd171938")
 		)
 		(pin "1"
 			(uuid "d154ff81-183c-4985-a287-7923c1a9f848")
+		)
+		(pin "3"
+			(uuid "0bb5c4f0-cff8-4626-8c6f-7d6d6265c205")
 		)
 		(instances
 			(project "PCB_v2"
@@ -7411,7 +7669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 349.25 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,6 +7861,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "211b3546-7233-463f-87ff-e356c6541e5f")
+		(property "Reference" "#PWR057"
+			(at 218.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 218.44 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46820654-8b9c-46ab-9c28-f88f68561936")
+		)
+		(instances
+			(project "PCB_v2"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/87500869-e2e5-4f4f-93d6-b7e2f5151c9c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 119.38 0)
 		(unit 1)
@@ -7703,7 +8039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 132.08 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +8132,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 57.15 115.5635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8286,7 +8622,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 149.86 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 48.26 115.5635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8628,7 +8964,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 167.64 55.8735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +9057,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 185.42 55.8735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9841,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 237.49 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9642,7 +9978,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 176.53 55.8735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +10071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 140.97 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10472,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 55.88 76.1935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10772,7 +11108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 361.95 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +11323,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 149.86 55.8735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11308,7 +11644,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 116.8463 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11860,7 +12196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 110.49 186.6835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +12289,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 50.8 53.3335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12046,7 +12382,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 59.69 53.3335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12660,7 +12996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 337.82 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13102,7 +13438,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 167.64 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +13531,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 144.78 184.1435 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13632,17 +13968,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 236.22 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 236.22 129.54 0)
 			(hide yes)
@@ -13824,17 +14149,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 132.08 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 132.08 184.15 0)
 			(hide yes)
@@ -13901,6 +14215,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C32445874"
+			(at 132.08 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "de14868c-539b-4bd7-8ae8-a1321461725c")
 		)
@@ -13948,7 +14273,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 41.91 53.3335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14376,17 +14701,6 @@
 			)
 		)
 		(property "*LCSC Part Number" "C3210761"
-			(at 236.22 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 236.22 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -14841,17 +15155,6 @@
 			)
 		)
 		(property "*LCSC Part Number" "C22418767"
-			(at 90.17 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 90.17 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15596,7 +15899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2uF"
 			(at 226.06 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15733,7 +16036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 158.75 55.8735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16296,7 +16599,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 66.04 115.5635 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16389,7 +16692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 158.75 124.4535 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16481,7 +16784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0 Ohm"
 			(at 65.024 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)

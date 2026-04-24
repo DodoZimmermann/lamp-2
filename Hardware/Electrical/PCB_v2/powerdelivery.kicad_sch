@@ -2900,10 +2900,10 @@
 		)
 		(uuid "7faf3903-5b57-443a-875f-77f3a5f08d5d")
 	)
-	(text_box "Safe PWR EN to get 5V for display to tell user that power supply isnt compatible"
+	(text_box "Safe PWR EN to get 5V for Programming"
 		(exclude_from_sim no)
 		(at 326.39 80.01 0)
-		(size 48.26 6.35)
+		(size 41.91 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2986,12 +2986,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d8b89c9-9aed-43bd-b928-7dae9d9ddd3b")
-	)
-	(junction
-		(at 226.06 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b5b442-754f-4af5-b97b-38aa0ef98cd2")
 	)
 	(junction
 		(at 307.34 82.55)
@@ -3082,12 +3076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e18bafb-d3b5-442c-b19c-5128c26702c4")
-	)
-	(junction
-		(at 218.44 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a22e4791-b847-4e6f-ae39-0f334a7a35b7")
 	)
 	(junction
 		(at 292.1 82.55)
@@ -3860,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 116.84) (xy 226.06 118.11)
+			(xy 218.44 116.84) (xy 218.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4050,16 +4038,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 127) (xy 226.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30988e5-0fdb-4c99-8071-2b00a8868d88")
-	)
-	(wire
-		(pts
 			(xy 295.91 82.55) (xy 307.34 82.55)
 		)
 		(stroke
@@ -4110,16 +4088,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 118.11) (xy 218.44 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd86a203-2a93-4395-ad6a-6dd50e5d1c02")
-	)
-	(wire
-		(pts
 			(xy 88.9 80.01) (xy 97.79 80.01)
 		)
 		(stroke
@@ -4167,16 +4135,6 @@
 			(type default)
 		)
 		(uuid "e5a736a1-fa7f-476e-8a72-6436246b3343")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 226.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5af330b-c351-4ba1-95dc-0edddc04645c")
 	)
 	(wire
 		(pts
@@ -4297,16 +4255,6 @@
 			(type default)
 		)
 		(uuid "ff2fdc7c-6167-4f2d-bf72-f3fc3a0b337c")
-	)
-	(wire
-		(pts
-			(xy 218.44 128.27) (xy 226.06 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5a4564-41c3-437c-80f0-c771e73b5224")
 	)
 	(image
 		(at 83.82 111.76)
@@ -4746,7 +4694,7 @@
 		(uuid "5086cad3-4630-45e9-b47d-d7dfa1b17506")
 	)
 	(label "+3.3V_CYPD"
-		(at 226.06 116.84 180)
+		(at 218.44 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5021,17 +4969,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay Siliconix"
-			(at 304.8 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "SI7149ADP-T1-GE3"
 			(at 304.8 96.52 0)
 			(hide yes)
@@ -5197,6 +5134,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C554002"
+			(at 304.8 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "G"
 			(uuid "a1d41ca4-1197-4915-b1d3-b32a1bb17531")
 		)
@@ -5271,17 +5219,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 314.96 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 314.96 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5457,6 +5394,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C1848"
+			(at 314.96 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "755631d0-620f-46ad-9faf-8683ab27029f")
 		)
@@ -5494,7 +5442,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 127.762 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,17 +5476,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5693,6 +5630,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 124.46 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C14663"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5798,252 +5746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 226.06 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e6209d7-8093-4aa8-9000-d7a317aa2c36")
-		(property "Reference" "C14"
-			(at 227.076 120.904 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 227.076 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.0948 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206095.pdf"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "885012206095"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Second supplier" "Digikey"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Second supplier Part Number" "732-8013-1-ND"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C6715111"
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Position Offset" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Origin" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 226.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ac6d3c3-7927-40b9-a8a9-77dc3800f3ac")
-		)
-		(pin "2"
-			(uuid "10aea808-7c1d-4031-bb9d-fe11e83d6f16")
-		)
-		(instances
-			(project "PCB_v2"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/75aea118-c827-41f1-9dfa-825327e2bde1"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Q_PMOS")
 		(at 318.77 96.52 270)
 		(mirror x)
@@ -6098,17 +5800,6 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 50A (Tc) 5W (Ta), 48W (Tc) Surface Mount PowerPAK® SO-8"
-			(at 318.77 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Siliconix"
 			(at 318.77 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6284,6 +5975,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C554002"
+			(at 318.77 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "G"
 			(uuid "8f009139-1458-4b21-9ae6-ad01d01ad390")
 		)
@@ -6433,17 +6135,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6689,17 +6380,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 273.05 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "CC0603KRX7R9BB105"
 			(at 273.05 77.47 0)
 			(hide yes)
@@ -6865,6 +6545,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C1848"
+			(at 273.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fdd36cc-c343-4b98-b6cc-512f248f2ff1")
 		)
@@ -6903,7 +6594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 184.404 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,17 +6628,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 185.42 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
 			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7102,6 +6782,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C14663"
 			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7161,7 +6852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 294.132 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -7184,6 +6875,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 295.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C23184"
 			(at 295.91 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -7231,7 +6933,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 116.332 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,17 +6967,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 113.03 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
 			(at 113.03 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7430,6 +7121,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C14663"
 			(at 113.03 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7509,17 +7211,6 @@
 			)
 		)
 		(property "Description" "2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"
-			(at 120.65 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
 			(at 120.65 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7684,6 +7375,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C97502"
+			(at 120.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66b38139-728a-4d44-81e0-f367bd1d89e7")
 		)
@@ -7788,17 +7490,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 273.05 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 273.05 121.92 90)
 			(hide yes)
@@ -7812,6 +7503,17 @@
 		)
 		(property "Second supplier" "Digikey"
 			(at 273.05 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C21190"
+			(at 273.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,17 +7592,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 177.8 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8065,6 +7756,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C21189"
+			(at 177.8 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b15694a-17fa-4140-b298-356edf67e986")
 		)
@@ -8136,17 +7838,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 210.82 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 210.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8312,6 +8003,17 @@
 			)
 		)
 		(property "Confirmed" "x"
+			(at 210.82 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C1848"
 			(at 210.82 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8480,17 +8182,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 177.8 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "RC0603JR-070RL"
 			(at 177.8 147.32 0)
 			(hide yes)
@@ -8645,6 +8336,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C21189"
+			(at 177.8 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "21758548-27c0-4204-ba05-3d8653cc3a89")
 		)
@@ -8717,17 +8419,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 193.04 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 193.04 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8893,6 +8584,17 @@
 			)
 		)
 		(property "Confirmed" "x"
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C1848"
 			(at 193.04 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9239,17 +8941,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 267.97 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "ERJ-PB3B1002V"
 			(at 267.97 77.47 0)
 			(hide yes)
@@ -9262,6 +8953,17 @@
 			)
 		)
 		(property "Second supplier" "Digikey"
+			(at 267.97 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C25804"
 			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9374,7 +9076,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "afdf39ba-10c8-4365-a582-811dad01e9ce")
 		(property "Reference" "J2"
 			(at 73.66 64.77 0)
@@ -9419,17 +9121,6 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 73.66 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN"
 			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9753,7 +9444,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "100nF"
 			(at 219.456 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,17 +9478,6 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
 			(at 218.44 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9962,6 +9642,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C14663"
+			(at 218.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "58eb278e-a4ed-409e-89d2-95b12c643110")
 		)
@@ -10032,17 +9723,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 177.8 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10207,6 +9887,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C21189"
+			(at 177.8 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c15812c-049c-4605-9dab-866532f0d4be")
 		)
@@ -10277,17 +9968,6 @@
 			)
 		)
 		(property "Description" "P-Channel 30 V 50A (Tc) 5W (Ta), 48W (Tc) Surface Mount PowerPAK® SO-8"
-			(at 280.67 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Siliconix"
 			(at 280.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10463,6 +10143,28 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C554002"
+			(at 280.67 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 280.67 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "G"
 			(uuid "33242c2d-4fa1-44e8-87c9-bbc3ce9511c9")
 		)
@@ -10548,17 +10250,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 201.93 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 201.93 157.48 0)
 			(hide yes)
@@ -10615,6 +10306,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 201.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C2959321"
 			(at 201.93 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10774,17 +10476,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay Siliconix"
-			(at 307.34 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "SI7149ADP-T1-GE3"
 			(at 307.34 74.93 0)
 			(hide yes)
@@ -10950,6 +10641,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C554002"
+			(at 307.34 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "G"
 			(uuid "394edab9-6c9c-4da9-8db7-72a2bc161b60")
 		)
@@ -11001,7 +10703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 292.1 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11024,17 +10726,6 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 292.1 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 292.1 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11101,6 +10792,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 292.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 292.1 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11212,17 +10914,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 297.18 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 297.18 121.92 90)
 			(hide yes)
@@ -11236,6 +10927,17 @@
 		)
 		(property "Second supplier" "Digikey"
 			(at 297.18 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C21190"
+			(at 297.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11294,7 +10996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.282 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -11317,17 +11019,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 226.06 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11394,6 +11085,17 @@
 			)
 		)
 		(property "FT Origin" ""
+			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C23162"
 			(at 226.06 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11473,17 +11175,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
 			(at 177.8 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11648,6 +11339,17 @@
 				)
 			)
 		)
+		(property "*LCSC Part Number" "C21189"
+			(at 177.8 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "86cd13a0-1162-4e91-8aad-c799596779a7")
 		)
@@ -11696,7 +11398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 295.402 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -11719,6 +11421,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 297.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "*LCSC Part Number" "C23184"
 			(at 297.18 99.06 0)
 			(hide yes)
 			(show_name no)
