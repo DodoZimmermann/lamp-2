@@ -4043,6 +4043,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C2913199"
+			(at 219.71 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "5598ac19-6ca6-41f7-82e2-675c2ff025f5")
 		)
@@ -4384,7 +4395,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2652051"
 			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4602,6 +4613,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C23162"
+			(at 181.61 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d589dd55-45ee-41e4-bd0a-f04b6ee3a87f")
 		)
@@ -4736,6 +4758,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20088533"
+			(at 125.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb7fa029-76af-429b-b589-2d53bd1f6ca4")
 		)
@@ -4860,6 +4893,17 @@
 			)
 		)
 		(property "*LCSC Part Number" "C25804"
+			(at 283.21 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 283.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5006,6 +5050,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6af316b-0655-44a8-ac3d-b8c99fd84d75")
 		)
@@ -5130,6 +5185,17 @@
 			)
 		)
 		(property "*LCSC Part Number" "C20088533"
+			(at 125.73 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20088533"
 			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5351,6 +5417,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C23162"
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "74c1981d-8f34-43a5-85d1-b193c6f5a6e5")
 		)
@@ -5510,6 +5587,17 @@
 			)
 		)
 		(property "*LCSC Part Number" "C352970"
+			(at 294.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C352970"
 			(at 294.64 127 0)
 			(hide yes)
 			(show_name no)
@@ -5747,17 +5835,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 196.85 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 196.85 97.79 0)
 			(hide yes)
@@ -5769,7 +5846,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 196.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6036,6 +6113,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20088533"
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e075fa53-02ea-455b-9a89-9281caa2fe3b")
 		)
@@ -6170,17 +6258,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 154.94 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer Part Number" ""
 			(at 154.94 109.22 0)
 			(hide yes)
@@ -6192,7 +6269,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C14663"
 			(at 154.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6538,6 +6615,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C23162"
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "22722f38-5c2c-41ef-8cbb-3746afa58502")
 		)
@@ -6662,6 +6750,17 @@
 			)
 		)
 		(property "*LCSC Part Number" "C20088533"
+			(at 125.73 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20088533"
 			(at 125.73 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6803,6 +6902,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C20088533"
+			(at 125.73 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "190a0463-89ca-4485-b855-c92f0e613b0c")
 		)
@@ -6924,6 +7034,17 @@
 			)
 		)
 		(property "*LCSC Part Number" "C20088533"
+			(at 125.73 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20088533"
 			(at 125.73 118.11 0)
 			(hide yes)
 			(show_name no)

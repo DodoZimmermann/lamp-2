@@ -1029,8 +1029,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_asc": true,
+      "sort_field": "LCSC Part #"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1047,11 +1047,6 @@
         },
         {
           "name": "Manufacturer Part Number",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "LCSC Part #",
           "url": false,
           "visible": false
         },
@@ -1117,7 +1112,7 @@
         "uuid": "0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
       }
     ],
-    "used_designators": "#PWR49,#PWR66",
+    "used_designators": "H1-4",
     "variants": []
   },
   "sheets": [
