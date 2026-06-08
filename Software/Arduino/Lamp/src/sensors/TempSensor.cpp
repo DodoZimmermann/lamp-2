@@ -7,11 +7,11 @@ TempSensor tempSensor;
 bool TempSensor::begin() {
     uint16_t devId;
     if (!i2c.readWord(I2C_ADDR_TMP1075, REG_DEV_ID, devId)) {
-        Serial.println("[TMP] TMP1075 not found");
+        printf("[TMP] TMP1075 not found\n");
         return false;
     }
     if ((devId >> 8) != EXPECTED_DEV_ID) {
-        Serial.printf("[TMP] Unexpected device ID: 0x%04X\n", devId);
+        printf("[TMP] Unexpected device ID: 0x%04X\n", devId);
         return false;
     }
 
@@ -22,7 +22,7 @@ bool TempSensor::begin() {
 
     setAlertThresholds(TEMP_ALERT_LOW_C, TEMP_ALERT_HIGH_C);
 
-    Serial.println("[TMP] TMP1075 ready");
+    printf("[TMP] TMP1075 ready\n");
     return true;
 }
 

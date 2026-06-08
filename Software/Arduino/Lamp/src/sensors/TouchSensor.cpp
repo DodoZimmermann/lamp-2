@@ -7,11 +7,11 @@ TouchSensor touchSensor;
 bool TouchSensor::begin() {
     uint8_t pid;
     if (!i2c.readByte(I2C_ADDR_CAP1296, REG_PRODUCT_ID, pid)) {
-        Serial.println("[TOUCH] CAP1296 not found");
+        printf("[TOUCH] CAP1296 not found\n");
         return false;
     }
     if (pid != EXPECTED_PRODUCT_ID) {
-        Serial.printf("[TOUCH] Unexpected product ID: 0x%02X\n", pid);
+        printf("[TOUCH] Unexpected product ID: 0x%02X\n", pid);
         return false;
     }
 
@@ -24,7 +24,7 @@ bool TouchSensor::begin() {
     // Disable key repeat to avoid holding-touch spam
     i2c.writeByte(I2C_ADDR_CAP1296, REG_REPEAT_RATE, 0x00);
 
-    Serial.println("[TOUCH] CAP1296 ready");
+    printf("[TOUCH] CAP1296 ready\n");
     return true;
 }
 

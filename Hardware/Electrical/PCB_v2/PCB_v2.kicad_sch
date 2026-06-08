@@ -67,21 +67,6 @@
 		)
 		(uuid "09a9f005-609a-4854-9ba5-f5a5e7b8d7c7")
 	)
-	(text "RELEASED - A board with this schematic has been sent to production."
-		(exclude_from_sim no)
-		(at 222.25 217.17 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "10cbc67f-d688-44d7-9e2b-bee41b99ad5c")
-	)
 	(text "Page"
 		(exclude_from_sim no)
 		(at 332.74 71.12 0)
@@ -208,19 +193,6 @@
 		)
 		(uuid "3691ab49-6c05-4886-869a-12221f52fdee")
 	)
-	(text "Not fitted components are marked as"
-		(exclude_from_sim no)
-		(at 222.25 187.96 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 3 3)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e121d9b-11e9-4895-9779-ade93d5b2a88")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 243.84 152.4 0)
@@ -319,21 +291,6 @@
 		)
 		(uuid "4aa9b67c-c657-48d1-abb0-497faf20008a")
 	)
-	(text "PRELIMINARY - Close to final schematic."
-		(exclude_from_sim no)
-		(at 222.25 204.47 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b75d6be-e2b4-4862-a5fd-f3239bff6734")
-	)
 	(text "24"
 		(exclude_from_sim no)
 		(at 233.68 106.68 0)
@@ -347,21 +304,6 @@
 			(href "#24")
 		)
 		(uuid "4d10b8f7-ee9d-4539-987e-2871a213b2d6")
-	)
-	(text "${VARIANT} ${RELEASE_DATE}"
-		(exclude_from_sim no)
-		(at 220.98 237.49 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 10.16 10.16)
-				(thickness 0.6)
-				(bold yes)
-				(color 200 200 200 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f144e11-d681-45f3-b92d-dea6c28023e4")
 	)
 	(text "Page"
 		(exclude_from_sim no)
@@ -983,21 +925,6 @@
 		)
 		(uuid "beb5ee3d-ad62-4c0c-ab18-390f8e3c78c4")
 	)
-	(text "DRAFT - Very early stage of schematic, ignore details."
-		(exclude_from_sim no)
-		(at 222.25 198.12 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1828499-d221-4dc2-9c7b-c9d850654d5e")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 144.78 106.68 0)
@@ -1166,19 +1093,6 @@
 		)
 		(uuid "d7ac5948-93ba-4038-95c3-cb73c27df74a")
 	)
-	(text "Add a comment here"
-		(exclude_from_sim no)
-		(at 222.25 177.8 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 3 3)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8d8425a-4141-4ddb-8e75-262db2d23ce8")
-	)
 	(text "2"
 		(exclude_from_sim no)
 		(at 35.56 91.44 0)
@@ -1291,20 +1205,6 @@
 		)
 		(uuid "e9964413-67ff-4f53-b58c-608277db6779")
 	)
-	(text "NOTES"
-		(exclude_from_sim no)
-		(at 220.98 167.005 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 5 5)
-				(bold yes)
-				(color 53 60 207 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ecd14d51-7267-460d-9460-6bae137b0c37")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 144.78 91.44 0)
@@ -1332,21 +1232,6 @@
 			(href "#3")
 		)
 		(uuid "ed9f4e44-7881-47b3-83af-17eb3de0e161")
-	)
-	(text "CHECKED - There shouldn't be any mistakes. Contact the engineer if you find any."
-		(exclude_from_sim no)
-		(at 222.25 210.82 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-				(color 140 140 140 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee4bfbd2-ceac-40c9-847b-b15b18b07c08")
 	)
 	(text "..........................................."
 		(exclude_from_sim no)
@@ -1403,20 +1288,6 @@
 			(href "#37")
 		)
 		(uuid "f8fd86d8-ca92-4fd2-9536-487e6832d844")
-	)
-	(text "DESIGN CONSIDERATIONS"
-		(exclude_from_sim no)
-		(at 26.67 255.27 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 5 5)
-				(bold yes)
-				(color 53 60 207 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb09f930-25b6-4039-89ae-42d9d443b49d")
 	)
 	(text "40"
 		(exclude_from_sim no)
@@ -1502,148 +1373,6 @@
 		)
 		(uuid "2d015f2a-bc39-4866-bbd9-40b03d497a26")
 	)
-	(text_box "Metadata can be set in File → Schematic Setup → Project → Text Variables"
-		(exclude_from_sim no)
-		(at 8.89 300.99 0)
-		(size 119.38 6.35)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "4d4fc8f9-28d9-4b33-b78d-b00f0a2b33ca")
-	)
-	(text_box "DESIGN NOTE:\nExample text for informational design notes."
-		(exclude_from_sim no)
-		(at 26.67 258.445 0)
-		(size 30.48 20.32)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "60b6a08c-a542-468e-b79f-aa4a2aa0e9e7")
-	)
-	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
-		(exclude_from_sim no)
-		(at 166.37 258.445 0)
-		(size 30.48 20.32)
-		(margins 2.25 2.25 2.25 2.25)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "b2648603-9b19-4c01-9621-49d92c5b8a6e")
-	)
-	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
-		(exclude_from_sim no)
-		(at 96.52 258.445 0)
-		(size 30.48 20.32)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c7ec7f64-f5b0-4d3e-9743-7d40c3e23ecf")
-	)
-	(text_box "DESIGN NOTE:\nExample text for debug notes."
-		(exclude_from_sim no)
-		(at 61.595 258.445 0)
-		(size 30.48 20.32)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c8bf2561-6ede-45f0-9b2e-12af2dfee13b")
-	)
-	(text_box "DESIGN NOTE:\nExample text for critical design notes."
-		(exclude_from_sim no)
-		(at 131.445 258.445 0)
-		(size 30.48 20.32)
-		(margins 2.25 2.25 2.25 2.25)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d03e1008-e371-461f-a9f2-320d8a2b7341")
-	)
 	(polyline
 		(pts
 			(xy 215.9 73.66) (xy 233.68 73.66)
@@ -1654,17 +1383,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "024689d9-b8ca-41ae-b55d-6ff207f6e101")
-	)
-	(polyline
-		(pts
-			(xy 297.18 181.61) (xy 294.64 187.96)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4ae2cac4-7676-4a8d-91c4-c6c6f4585019")
 	)
 	(polyline
 		(pts
@@ -1720,17 +1438,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "aefa0f5d-e237-48a6-8d0d-7925958d23a4")
-	)
-	(polyline
-		(pts
-			(xy 294.64 181.61) (xy 297.18 187.96)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b16ef1e7-4b58-4125-810d-81e7071984f8")
 	)
 	(polyline
 		(pts

@@ -20,41 +20,53 @@ void LEDController::setColor(uint8_t r, uint8_t g, uint8_t b) {
     _color = CRGB(r, g, b);
 }
 
-void LEDController::setEffect(Effect e, uint16_t speedMs) {
-    _effect  = e;
-    _speedMs = speedMs;
-
+void LEDController::setEffect(Effect e) {
+    _effect = e;
     if (e == Effect::OFF) {
         fill_solid(_leds, LED_COUNT, CRGB::Black);
         FastLED.show();
     }
 }
 
+void LEDController::setIndicator(uint8_t idx, CRGB color, bool active) {
+    _indicatorActive = active;
+    _indicatorIdx    = idx;
+    _indicatorColor  = color;
+}
+
 void LEDController::update() {
     switch (_effect) {
-        case Effect::OFF:     break;
-        case Effect::SOLID:   FastLED.setBrightness(map(_brightness, 0, 100, 0, 255));
-                              fill_solid(_leds, LED_COUNT, _color);
-                              FastLED.show();
-                              break;
-        case Effect::BREATHING:  _updateBreathing(); break;
-        case Effect::RAINBOW:    _updateRainbow();   break;
+        case Effect::OFF:
+            break;
+        case Effect::SOLID:
+            FastLED.setBrightness(map(_brightness, 0, 100, 0, 255));
+            fill_solid(_leds, LED_COUNT, _color);
+            break;
+        case Effect::BREATHING:
+            _updateBreathing();
+            break;
+        case Effect::RAINBOW:
+            _updateRainbow();
+            break;
     }
+
+    // Overlay indicator LED after effect (full brightness, ignores global dimming)
+    if (_indicatorActive)
+        _leds[_indicatorIdx] = _indicatorColor;
+
+    if (_effect != Effect::OFF || _indicatorActive)
+        FastLED.show();
 }
 
 void LEDController::_updateBreathing() {
-    uint32_t t     = millis() % _speedMs;
-    float    phase = (float)t / _speedMs * TWO_PI;
-    float    scale = (sinf(phase - HALF_PI) + 1.0f) / 2.0f; // 0..1, starts at 0
-    uint8_t  bright = (uint8_t)(map(_brightness, 0, 100, 0, 255) * scale);
-    FastLED.setBrightness(bright);
+    float phase = (float)(millis() % BREATHE_SPEED_MS) / BREATHE_SPEED_MS * TWO_PI;
+    float scale = 0.30f + (sinf(phase - HALF_PI) + 1.0f) / 2.0f * 0.70f;  // 30–100 %
+    FastLED.setBrightness((uint8_t)(map(_brightness, 0, 100, 0, 255) * scale));
     fill_solid(_leds, LED_COUNT, _color);
-    FastLED.show();
 }
 
 void LEDController::_updateRainbow() {
     FastLED.setBrightness(map(_brightness, 0, 100, 0, 255));
-    uint8_t startHue = (uint8_t)((millis() % (uint32_t)_speedMs) * 255UL / _speedMs);
-    fill_rainbow(_leds, LED_COUNT, startHue, 255 / LED_COUNT);
-    FastLED.show();
+    uint8_t hue = (uint8_t)((millis() % RAINBOW_SPEED_MS) * 255UL / RAINBOW_SPEED_MS);
+    fill_solid(_leds, LED_COUNT, CHSV(hue, 255, 255));
 }
